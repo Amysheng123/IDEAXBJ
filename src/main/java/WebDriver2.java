@@ -9,4 +9,9 @@ public class WebDriver2 {
         WebDriver driver = new FirefoxDriver();
         driver.navigate().to("http://www.baidu.com");
     }
+    public void version(){
+        //感谢关注云层天咨微信公众号及腾讯课堂
+        System.out.println("感谢关注云层天咨微信公众号及腾讯课堂");
+
+    }
 }
