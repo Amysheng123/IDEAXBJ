@@ -8,7 +8,8 @@ public class WebDriver2 {
     public static void main(String[] args) {
         WebDriver driver = new FirefoxDriver();
         driver.navigate().to("http://www.baidu.com");
-        version();
+        WebDriver2 demo = new WebDriver2();
+        demo.version();
     }
     public void version(){
         //感谢关注云层天咨微信公众号及腾讯课堂
